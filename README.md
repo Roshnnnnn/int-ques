@@ -171,28 +171,32 @@ class Hello extends React.Component {
 ## Ans- 
 
 13. What are generators?
-## Ans- 
+## Ans- generator ek special function hote h jinke pass extra power hota h kbhi b function call krwana kbi b isko pause krna inke andr yeild keyword hota h jisme wo value retirn krta h or pause ho jata h 
 
 14. Explain memory management and garbage collection.
-## Ans-
+## Ans-memory management main data ko memory ko allocate krta h or free krta h 
+## garbage collection automatic unused memory ko detect krke free krta h 
 
 15. Difference between deep copy and shallow copy.
-## Ans-
+## Ans-shallow copy main refernce b copy ho jata h isme agar original main changes kro to copied main b changes ho jata h 
+## deep copy main uska refernce ni copy hota uski values copy hoti h jb original main changes hota h to copied main changes ni hota h 
 
 16. What is prototypal inheritance?
-## Ans-
+## Ans- Prototypal Inheritance means ek object dusre object ki properties or uske methods ko use b kr skte h access b kr skte h bina copy kiye hue 
 
 17. How do ES6 modules differ from older module patterns?
 ## Ans-
 
 18. What is throttling vs debouncing?
-## Ans-
+## Ans- Debounce:- jbtk kisi b trh ka event trigger bnd ni hota h tb tk functional call ni hota h 
+## throttling:- ek perticular time k baad call hona 
+
 
 19. What are WeakMap and WeakSet?
 ## Ans-
 
 20. What is currying in JavaScript?
-## Ans-
+## Ans- jb ek execution k liye ekse jada function bne (function k andr function) unke argument k liye to usse currying kehte h 
 
 21. What is tail call optimization?
 ## Ans-
