@@ -118,8 +118,14 @@ class Hello extends React.Component {
 ## Ans- 
 
 24. How do you avoid unnecessary re-renders?
+## Ans- memo, useMemo, callback, code splitting, kisi b state ko unnecessary update krna.
+
 25. How do you optimize performance in large React apps?
+## Ans- memo, useMemo, callback, lazy loading, debounce, image optimization.
+
 26. How do you test React components?
+## Ans- jest, react testing library se inko npm kro or fir 
+## kyu krte h :- check krne k liye UI ka behviour, bugs check krne k liye
 
 ---
 
@@ -137,21 +143,36 @@ class Hello extends React.Component {
 ## == value check krta h 
 
 4. What is a closure?
-## Ans- 
+## Ans- jb kisi function k andr kisi function ko likha jae or jo inner wala function h na wo parent function k andr ki value ko access kr ske usse closure kehte h.
 
 5. What is the `this` keyword?
-## Ans- 
+## Ans- js main `this` ek keyword h jiska kaam hota h apne current object ya parent context ko reffer krna.
 
 6. What are promises and how does async/await work?
-## Ans- 
+## Ans- js sync work krta h but kuch chizo k liye async kaam krwana pdta h to promises or async await ka use krna pdta h promises main 3 stage hote h pending, fullfilled, rejected. async/await main same work krta h promises ka updated version keh skte h.
 
 7. What is a callback function?
+## Ans- function k andr ek dusra function call krwana or jo baad main chlta h usse callback function kehte h 
+
 8. What is event bubbling and how do you prevent it?
+## Ans- jb kbhi div k andr multiple div ho or sbse andr wale div pr click krne pr bhaar k div b activate ho jae ya click ho jae use event bubbling kehte h isko rokne k liye stop propogation() ka use krte h 
+
 9. What is destructuring?
+## Ans- iska mtlb kisi object, array main multiple data ho usse unpack krna usse destructure kehte h 
+
 10. What is the spread/rest operator?
+## Ans- rest- isme jo unpack hua h variable usse wapas pack krna.
+## spread- isme packed ko unpack krna variables ko
+
 11. What are higher-order functions?
+## Ans- ek function k andr dusre function ko as a argument lena or whi function return krna hof kehlata h 
+
 12. How does the event loop work (call stack, microtasks, macrotasks)?
+## Ans- 
+
 13. What are generators?
+## Ans- 
+
 14. Explain memory management and garbage collection.
 15. Difference between deep copy and shallow copy.
 16. What is prototypal inheritance?
