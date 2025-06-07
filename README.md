@@ -174,13 +174,28 @@ class Hello extends React.Component {
 ## Ans- 
 
 14. Explain memory management and garbage collection.
+## Ans-
+
 15. Difference between deep copy and shallow copy.
+## Ans-
+
 16. What is prototypal inheritance?
+## Ans-
+
 17. How do ES6 modules differ from older module patterns?
+## Ans-
+
 18. What is throttling vs debouncing?
+## Ans-
+
 19. What are WeakMap and WeakSet?
+## Ans-
+
 20. What is currying in JavaScript?
+## Ans-
+
 21. What is tail call optimization?
+## Ans-
 
 ---
 
